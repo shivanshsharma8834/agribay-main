@@ -1,16 +1,22 @@
 # agribay-main
 Crop management Dashboard
 
+# Starting Next app
 
-To run the frontend-app 
+```bash
+cd next-app/
 
-```
-cd next-app
 npm install
+
+follow the format of .env.example and create your own .env
+
+npx prisma generate
+
+npx prisma migrate dev
+
 npm run dev
 ```
-
-The app should start 
+visit http://localhost:3000 on your browser to view the application
 
 To run the various services 
 
